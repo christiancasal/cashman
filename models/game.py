@@ -1,0 +1,15 @@
+class Game(object):
+	def __init__(self, params):
+		self.game_id = params.get('game_id')
+		self.away_team_id = params.get('away_team_id')
+		self.home_team_id = params.get('home_team_id')
+		self.home_code = params.get('home_code')
+		self.away_code = params.get('away_code')
+		self.home_pitching = params.get('home_pitching')
+		self.away_pitching = params.get('away_pitching')
+		self.home_additional_pitching = params.get('home_additional_pitching')
+		self.away_additional_pitching = params.get('away_additional_pitching')
+		self.home_batting = params.get('home_batting')
+		self.away_batting = params.get('away_batting')
+		self.home_additional_batting = params.get('home_additional_batting')
+		self.away_additional_batting = params.get('away_additional_batting')
